@@ -1,0 +1,1154 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta id="bb-bootstrap" data-current-user="{&quot;username&quot;: &quot;yybitb&quot;, &quot;displayName&quot;: &quot;yybitb&quot;, &quot;uuid&quot;: &quot;{d2ee9cfe-6807-4b0b-b199-aec6bc17e1c6}&quot;, &quot;firstName&quot;: &quot;yybitb&quot;, &quot;hasPremium&quot;: false, &quot;lastName&quot;: &quot;&quot;, &quot;avatarUrl&quot;: &quot;https://bitbucket.org/account/yybitb/avatar/32/?ts=1505399611&quot;, &quot;isTeam&quot;: false, &quot;isSshEnabled&quot;: true, &quot;isKbdShortcutsEnabled&quot;: false, &quot;id&quot;: 2756606, &quot;isAuthenticated&quot;: true}"
+data-atlassian-id="557058:50b49aec-0028-4a41-8874-55077e86133c" />
+  
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="utf-8">
+  <title>
+  mst777 / zerx_tv 
+  / issues 
+  / #151 - newtemplate: Неправильное отображение слова &#34;лет&#34; у актеров в полной новости
+
+ &mdash; Bitbucket
+</title>
+  <script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+  
+
+
+
+<meta id="bb-canon-url" name="bb-canon-url" content="https://bitbucket.org">
+<meta name="bb-api-canon-url" content="https://api.bitbucket.org">
+<meta name="apitoken" content="{&quot;token&quot;: &quot;1GvKKV8v12WQ09FNBrw-9WBDrZo6saDs7LxjBapEv79TtG_21wu9Q7chRexEEQRI7z8Oe0mZq0IiWmMHL7a3-BToY93R5ZmTmbhVpEnHXGbEhQ==&quot;, &quot;expiration&quot;: 1505400004.104589}">
+
+<meta name="bb-commit-hash" content="4373ea877c7d">
+<meta name="bb-app-node" content="app-169">
+<meta name="bb-view-name" content="bitbucket.apps.issues.views.issue">
+<meta name="ignore-whitespace" content="False">
+<meta name="tab-size" content="None">
+<meta name="locale" content="en">
+
+<meta name="application-name" content="Bitbucket">
+<meta name="apple-mobile-web-app-title" content="Bitbucket">
+
+
+  
+  <meta name="theme-color" content="#0049B0">
+  <meta name="msapplication-TileColor" content="#0052CC">
+  <meta name="msapplication-TileImage" content="https://d301sr5gafysq2.cloudfront.net/4373ea877c7d/img/logos/bitbucket/mstile-150x150.png">
+  <link rel="apple-touch-icon" sizes="180x180" type="image/png" href="https://d301sr5gafysq2.cloudfront.net/4373ea877c7d/img/logos/bitbucket/apple-touch-icon.png">
+  <link rel="icon" sizes="192x192" type="image/png" href="https://d301sr5gafysq2.cloudfront.net/4373ea877c7d/img/logos/bitbucket/android-chrome-192x192.png">
+  <link rel="icon" sizes="16x16 24x24 32x32 64x64" type="image/x-icon" href="https://d301sr5gafysq2.cloudfront.net/4373ea877c7d/img/logos/bitbucket/favicon_2017.ico">
+  <link rel="mask-icon" href="https://d301sr5gafysq2.cloudfront.net/4373ea877c7d/img/logos/bitbucket/safari-pinned-tab.svg" color="#0052CC">
+
+
+
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Bitbucket">
+
+  <meta name="description" content="">
+  
+  
+    
+  
+
+
+
+  <link rel="stylesheet" href="https://d301sr5gafysq2.cloudfront.net/4373ea877c7d/css/entry/vendor.css" />
+<link rel="stylesheet" href="https://d301sr5gafysq2.cloudfront.net/4373ea877c7d/css/entry/app.css" />
+
+
+
+
+  <link rel="stylesheet" href="https://d301sr5gafysq2.cloudfront.net/4373ea877c7d/css/entry/adg3.css">
+
+  
+  <script nonce="NCmOmaIAlDneC9rg">
+  window.__sentry__ = {"dsn": "https://ea49358f525d4019945839a3d7a8292a@sentry.io/159509", "release": "4373ea877c7d (canary)", "tags": {"project": "bitbucket-core"}, "environment": "canary"};
+</script>
+<script src="https://d301sr5gafysq2.cloudfront.net/4373ea877c7d/dist/webpack/sentry.js"></script>
+  <script src="https://d301sr5gafysq2.cloudfront.net/4373ea877c7d/dist/webpack/early.js"></script>
+  
+  
+  
+    <link href="/mst777/zerx_tv/rss?token=7c53a8e19608437c17f0f33b3250abd0" rel="alternate nofollow" type="application/rss+xml" title="RSS feed for zerx_tv" />
+
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:site" content="@bitbucket"/>
+  <meta name="og:type" content="bitbucket:issue"/>
+  <meta name="og:title" content="newtemplate: Неправильное отображение слова &#34;лет&#34; у актеров в полной новости"/>
+  <meta name="og:url" content="https://bitbucket.org/mst777/zerx_tv/issues/151/newtemplate"/>
+  
+    <meta name="og:description" content="У актеров в полной новости некорректно отображается сочетание возраста и слова &#34;лет&#34;. Пример: 32 лет или 31 лет
+
+**Задача**
+
+* Подобрать корректные слова для возраста актеров в отображении полной новости. 31 год, 32 года, 35 лет"/>
+  
+  
+    <meta name="og:image" content="https://d301sr5gafysq2.cloudfront.net/4373ea877c7d/img/repo-avatars/default.svg"/>
+  
+
+</head>
+<body class="production adg3 "
+    data-static-url="https://d301sr5gafysq2.cloudfront.net/4373ea877c7d/"
+data-base-url="https://bitbucket.org"
+data-no-avatar-image="https://d301sr5gafysq2.cloudfront.net/4373ea877c7d/img/default_avatar/user_blue.svg"
+data-current-user="{&quot;username&quot;: &quot;yybitb&quot;, &quot;displayName&quot;: &quot;yybitb&quot;, &quot;uuid&quot;: &quot;{d2ee9cfe-6807-4b0b-b199-aec6bc17e1c6}&quot;, &quot;firstName&quot;: &quot;yybitb&quot;, &quot;hasPremium&quot;: false, &quot;lastName&quot;: &quot;&quot;, &quot;avatarUrl&quot;: &quot;https://bitbucket.org/account/yybitb/avatar/32/?ts=1505399611&quot;, &quot;isTeam&quot;: false, &quot;isSshEnabled&quot;: true, &quot;isKbdShortcutsEnabled&quot;: false, &quot;id&quot;: 2756606, &quot;isAuthenticated&quot;: true}"
+data-atlassian-id="{&quot;loginStatusUrl&quot;: &quot;https://id.atlassian.com/profile/rest/profile&quot;}"
+data-settings="{&quot;MENTIONS_MIN_QUERY_LENGTH&quot;: 3}"
+
+data-current-repo="{&quot;scm&quot;: &quot;git&quot;, &quot;readOnly&quot;: false, &quot;mainbranch&quot;: {&quot;name&quot;: &quot;master&quot;}, &quot;language&quot;: &quot;&quot;, &quot;owner&quot;: {&quot;username&quot;: &quot;mst777&quot;, &quot;uuid&quot;: &quot;102fbc9b-6b05-444d-b783-fe5fbf7c8001&quot;, &quot;isTeam&quot;: false}, &quot;fullslug&quot;: &quot;mst777/zerx_tv&quot;, &quot;slug&quot;: &quot;zerx_tv&quot;, &quot;id&quot;: 10268036, &quot;pygmentsLanguage&quot;: null}"
+
+
+
+
+
+
+data-browser-monitoring="true"
+data-switch-create-pullrequest-commit-status="true"
+
+data-track-js-errors="true"
+data-atlassian-editor-enabled="true"
+data-atlassian-emoji-base-url="https://pf-emoji-service.atlassian.io/emoji/"
+>
+<div id="page">
+  
+    
+      <div id="adg3-navigation"
+  
+  
+  
+  <nav class="skeleton-nav">
+    <div class="skeleton-nav--left">
+      <div class="skeleton-nav--left-top">
+        <ul class="skeleton-nav--items">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li class="skeleton--icon"></li>
+          <li class="skeleton--icon-sub"></li>
+          <li class="skeleton--icon-sub"></li>
+          <li class="skeleton--icon-sub"></li>
+          <li class="skeleton--icon-sub"></li>
+          <li class="skeleton--icon-sub"></li>
+          <li class="skeleton--icon-sub"></li>
+        </ul>
+      </div>
+      <div class="skeleton-nav--left-bottom">
+        <div class="skeleton-nav--left-bottom-wrapper">
+          <div class="skeleton-nav--item-help"></div>
+          <div class="skeleton-nav--item-profile"></div>
+        </div>
+      </div>
+    </div>
+    <div class="skeleton-nav--right">
+      <ul class="skeleton-nav--items-wide">
+        <li class="skeleton--icon-logo-container">
+          <div class="skeleton--icon-container"></div>
+          <div class="skeleton--icon-description"></div>
+          <div class="skeleton--icon-logo"></div>
+        </li>
+        <li>
+          <div class="skeleton--icon-small"></div>
+          <div class="skeleton-nav--item-wide-content"></div>
+        </li>
+        <li>
+          <div class="skeleton--icon-small"></div>
+          <div class="skeleton-nav--item-wide-content"></div>
+        </li>
+        <li>
+          <div class="skeleton--icon-small"></div>
+          <div class="skeleton-nav--item-wide-content"></div>
+        </li>
+        <li>
+          <div class="skeleton--icon-small"></div>
+          <div class="skeleton-nav--item-wide-content"></div>
+        </li>
+        <li>
+          <div class="skeleton--icon-small"></div>
+          <div class="skeleton-nav--item-wide-content"></div>
+        </li>
+        <li>
+          <div class="skeleton--icon-small"></div>
+          <div class="skeleton-nav--item-wide-content"></div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+
+    
+    <div id="wrapper">
+      
+  
+  
+
+
+      
+
+      
+  
+    <div id="nps-survey-container"></div>
+  
+
+
+      
+  
+
+<div id="account-warning" data-module="header/account-warning"
+  data-unconfirmed-addresses="false"
+  data-no-addresses="false"
+  
+></div>
+
+
+
+      
+  
+<header id="aui-message-bar">
+  
+</header>
+
+
+    <div id="content" role="main">
+      
+        
+          <header class="app-header">
+            <div class="app-header--primary">
+              
+                <div class="app-header--context">
+                  <div class="app-header--breadcrumbs">
+                    
+            <ol class="aui-nav aui-nav-breadcrumbs">
+              <li>
+  <a href="/mst777/">DiMaco mb</a>
+</li>
+
+<li>
+  <a href="/mst777/zerx_tv">zerx_tv</a>
+</li>
+              
+  <li>
+    <a href="/mst777/zerx_tv/issues?status=new&amp;status=open">
+      Issues
+    </a>
+  </li>
+
+            </ol>
+          
+                  </div>
+                  <h1 class="app-header--heading">
+                    Issues
+                  </h1>
+                </div>
+                
+              </div>
+              <div class="app-header--secondary">
+                
+                  
+    
+  
+    <a id="create-issue-contextual" href="/mst777/zerx_tv/issues/new"
+        class="aui-button">
+      
+      <span class="aui-button-label">Create issue</span>
+    </a>
+  
+
+                
+              </div>
+            </header>
+          
+        
+        
+  
+
+        
+  <div class="aui-page-panel ">
+    <div class="hidden">
+  
+  </div>
+    <div class="aui-page-panel-inner">
+
+      <div
+        id="repo-content"
+        class="aui-page-panel-content forks-enabled can-create"
+        data-module="repo/index"
+        
+      >
+        
+        
+        
+  <div id="issues" class="clearfix">
+    
+  
+  <section id="issue-view" class=""
+      data-id="12013379"
+      data-local-id="151"
+      data-status="3">
+    <div id="issue-header" class="clearfix">
+      <span class="issue-id">
+        
+          Issue #151
+        
+      </span>
+      <a href="/mst777/zerx_tv/issues?status=resolved">
+        <span class="aui-lozenge aui-lozenge-success">resolved</span>
+      </a>
+      
+        <div class="issue-toolbar">
+          
+            <div id="workflow-dropdown" class="aui-dropdown2 aui-style-default">
+              <ul>
+                <li data-transition-to="1" title="Mark as new"><a>new</a></li>
+                <li data-transition-to="2" title="Open issue"><a>open</a></li>
+                <li data-transition-to="4" title="Put on hold"><a>on hold</a></li>
+                <li data-transition-to="3" title="Resolve issue"><a>resolved</a></li>
+                <li data-transition-to="6" title="Mark as duplicate"><a>duplicate</a></li>
+                <li data-transition-to="5" title="Mark as invalid"><a>invalid</a></li>
+                <li data-transition-to="7" title="Mark as wontfix"><a>wontfix</a></li>
+                <li data-transition-to="8" title="Close issue"><a>closed</a></li>
+              </ul>
+            </div>
+            
+    
+    
+  
+            
+    
+    
+  
+            <div id="issue-actions" class="aui-buttons">
+              
+                <a id="change-state" class="aui-button aui-button-primary" data-transition-to="2" href="#reopen" title="Open issue">
+                  Open
+                </a>
+              
+              <a href="#workflow" id="workflow" class="aui-button aui-dropdown2-trigger"
+                  aria-owns="workflow-dropdown" aria-haspopup="true">
+                <span class="dropdown-text">Workflow</span>
+              </a>
+            </div>
+          
+          
+            <div class="aui-buttons">
+              <a href="#attach" class="issue-attach-link aui-button">
+                Attach
+              </a>
+            </div>
+          
+          
+            <div class="aui-buttons">
+              <a href="/mst777/zerx_tv/issues/edit/151" id="edit-issue" class="aui-button">Edit</a>
+            </div>
+          
+          
+        </div>
+        
+    
+    
+  
+      
+    </div>
+    <div class="aui-group">
+      <div class="aui-item">
+        <div id="issue-main-content">
+          <h1 id="issue-title">newtemplate: Неправильное отображение слова &#34;лет&#34; у актеров в полной новости</h1>
+
+          <div class="issue-author">
+            
+              
+
+
+  
+    <a href="/SlavianMoroz/" title="SlavianMoroz SlavianMoroz">
+      <div class="aui-avatar aui-avatar-medium">
+        <div class="aui-avatar-inner">
+          <img src="https://d301sr5gafysq2.cloudfront.net/4373ea877c7d/img/default_avatar/user_blue.svg" class="deferred-image"
+              data-src-url="https://bitbucket.org/account/SlavianMoroz/avatar/32/?ts=1505381201"
+              data-src-url-2x="https://bitbucket.org/account/SlavianMoroz/avatar/64/?ts=1505381201" alt="">
+        </div>
+      </div>
+  
+      <span title="SlavianMoroz SlavianMoroz">SlavianMoroz SlavianMoroz</span>
+  
+    </a>
+  
+
+            
+            
+            
+            created an issue
+            <time datetime="2015-06-15T12:13:31.099527+00:00">2015-06-15</time>
+          </div>
+          <div class="issue-description wiki-content">
+            
+              <p>У актеров в полной новости некорректно отображается сочетание возраста и слова "лет". Пример: 32 лет или 31 лет</p>
+<p><strong>Задача</strong></p>
+<ul>
+<li>Подобрать корректные слова для возраста актеров в отображении полной новости. 31 год, 32 года, 35 лет</li>
+</ul>
+            
+          </div>
+
+          <div class="attachments" id="attachments">
+            
+              <ul class="issue-attachment-list attachment-list clearfix"
+                  data-delete-url="/mst777/zerx_tv/issues/151">
+                
+                  <li>
+                    
+                      <a class="attachment-link image-attachment" title="4.png"
+                         href="/mst777/zerx_tv/issues/attachments/151/mst777/zerx_tv/1434370411.12/151/4.png" target="_blank" rel="issue-screenshots" data-fancybox-type="image">
+                        
+                          <span class="placeholder">
+                            <img src="/mst777/zerx_tv/issues/attachments/151/mst777/zerx_tv/1434370411.12/151/4.png"/>
+                          </span>
+                        
+                        <span class="filename">4.png</span>
+                      </a>
+                    
+                    
+                      <a data-id="1256565" href="#delete-attachment" title="Delete attachment"><span class="aui-icon aui-icon-small aui-iconfont-remove">Delete attachment</span></a>
+                    
+                  </li>
+                
+              </ul>
+            
+          </div>
+        </div>
+
+        <div id="issues-comments-container">
+          
+
+          <h2>
+            
+              Comments (1)
+            
+          </h2>
+          <ol id="issues-comments" class="comments-list commentable">
+            
+              <li class="issue-comment comment" id="comment-18836462">
+                
+                 
+
+<article id="comment-18836462" class="iterable-item"
+         data-comment-id="18836462"
+         data-convert-markup="False"
+         data-content="fix #151, Неправильное отображение слова &quot;лет&quot; у актеров в полной новости, аналогичная правка блока актеров.
+
+
+→ &lt;&lt;cset f39824295cf3&gt;&gt;"
+         >
+  <header>
+      <a href="/Kpeamop/">
+        <div class="aui-avatar aui-avatar-medium">
+          <div class="aui-avatar-inner">
+            <img src="https://bitbucket.org/account/Kpeamop/avatar/32/?ts=1504624677" alt="">
+          </div>
+        </div>
+      </a>
+      <a href="/Kpeamop/" class="author">Sergey</a>
+      
+      
+      
+  </header>
+  <ul class="changes">
+      <li>
+                    changed status to
+                    <a href="/mst777/zerx_tv/issues?status=resolved">resolved</a>
+      </li>
+  </ul>
+  <div class="wiki-content comment-content">
+    <p>fix <a href="/mst777/zerx_tv/issues/151/newtemplate" rel="nofollow" title="newtemplate: Неправильное отображение слова &quot;лет&quot; у актеров в полной новости"><s>#151</s></a>, Неправильное отображение слова "лет" у актеров в полной новости, аналогичная правка блока актеров.</p>
+<p>→ &lt;&lt;cset <a href="/mst777/zerx_tv/commits/f39824295cf3" rel="nofollow">f39824295cf3</a>&gt;&gt;</p>
+  </div>
+  <ul class="comment-actions">
+    <li>
+      <a class="permalink" href="#comment-18836462" title="Link directly to this comment">
+        <time datetime="2015-06-16T07:09:21+00:00" data-title="true">2015-06-16T07:09:21+00:00</time>
+      </a>
+    </li>
+  </ul>
+</article>
+
+              </li>
+            
+            
+          </ol>
+          
+            
+            
+              
+    
+    
+  
+            
+          
+        </div>
+      </div>
+      <div class="aui-item sidebar">
+        <div class="issue-attrs">
+          <dl>
+            <dt>Assignee</dt>
+            <dd class="assignee with-icon">
+              
+                <a href="/mst777/zerx_tv/issues?responsible=Kpeamop">
+                  <span class="aui-avatar aui-avatar-xsmall">
+                    <span class="aui-avatar-inner">
+                      <img src="https://bitbucket.org/account/Kpeamop/avatar/16/?ts=1504624677">
+                    </span>
+                  </span>
+                  Sergey
+                </a>
+              
+            </dd>
+          </dl>
+          <dl>
+            <dt>Type</dt>
+            <dd class="type with-icon">
+              <a href="/mst777/zerx_tv/issues?kind=bug">
+                <span class="icon icon-bug"></span>
+                bug
+              </a>
+            </dd>
+          </dl>
+          <dl>
+            <dt>Priority</dt>
+            <dd class="priority with-icon">
+              <a href="/mst777/zerx_tv/issues?priority=major">
+                <span class="icon icon-major"></span>
+                major
+              </a>
+            </dd>
+          </dl>
+          <dl>
+            <dt>Status</dt>
+            <dd class="status">
+              <a href="/mst777/zerx_tv/issues?status=resolved">
+                resolved
+              </a>
+            </dd>
+          </dl>
+          
+          
+          
+          <dl>
+            <dt>Votes</dt>
+            <dd class="votes">
+              <span id="issue-vote-count" class="aui-badge">0</span>
+              
+                <a href="/api/1.0/repositories/mst777/zerx_tv/issue/151/vote"
+                   id="issue-vote-trigger" class="vote-issue"
+                   data-vote-text="Vote for this issue"
+                   data-unvote-text="Remove vote"
+                   
+                     data-voted="false"
+                     title="Vote for this issue"> Vote for this issue
+                   
+                </a>
+              
+            </dd>
+          </dl>
+          <dl>
+            <dt>Watchers</dt>
+            <dd class="watchers">
+              <span id="issue-watch-count" class="aui-badge">0</span>
+              
+                <a href="/api/1.0/repositories/mst777/zerx_tv/issue/151/follow"
+                   id="issue-watch-trigger"
+                   class="follow-issue follow"
+                   data-follow-text="Watch this issue"
+                   data-unfollow-text="Stop watching"
+                    
+                      title="Watch this issue"> Watch this issue
+                    
+                </a>
+              
+            </dd>
+          </dl>
+        </div>
+        
+          
+            
+          
+        
+      </div>
+    </div>
+  </section>
+
+  </div>
+
+        
+        
+        
+          
+    
+    
+  
+        
+      </div>
+    </div>
+    <div id="code-search-cta"></div>
+  </div>
+
+      </div>
+    </div>
+  
+
+  
+</div>
+
+  <div id="adg3-dialog"></div>
+
+
+
+  
+
+<div data-module="components/mentions/index">
+  
+    
+    
+  
+  
+    
+    
+  
+  
+    
+    
+  
+</div>
+<div data-module="components/typeahead/emoji/index">
+  
+    
+    
+  
+</div>
+
+<div data-module="components/repo-typeahead/index">
+  
+    
+    
+  
+</div>
+
+    
+    
+  
+
+    
+    
+  
+
+    
+    
+  
+
+    
+    
+  
+
+
+  <aui-inline-dialog
+    id="help-menu-dialog"
+    data-aui-alignment="bottom right"
+
+    
+    data-aui-alignment-static="true"
+    data-module="header/help-menu"
+    responds-to="toggle"
+    aria-hidden="true">
+
+  <div id="help-menu-section">
+    <h1 class="help-menu-heading">Help</h1>
+
+    <form id="help-menu-search-form" class="aui" target="_blank" method="get"
+        action="https://support.atlassian.com/customer/search">
+      <span id="help-menu-search-icon" class="aui-icon aui-icon-large aui-iconfont-search"></span>
+      <input id="help-menu-search-form-input" name="q" class="text" type="text" placeholder="Ask a question">
+    </form>
+
+    <ul id="help-menu-links">
+      <li>
+        <a class="support-ga" data-support-gaq-page="DocumentationHome"
+            href="https://confluence.atlassian.com/x/bgozDQ" target="_blank">
+          Online help
+        </a>
+      </li>
+      <li>
+        <a class="support-ga" data-support-gaq-page="GitTutorials"
+            href="https://www.atlassian.com/git?utm_source=bitbucket&amp;utm_medium=link&amp;utm_campaign=help_dropdown&amp;utm_content=learn_git"
+            target="_blank">
+          Learn Git
+        </a>
+      </li>
+      <li>
+        <a id="keyboard-shortcuts-link"
+           href="#">Keyboard shortcuts</a>
+      </li>
+      <li>
+        <a class="support-ga" data-support-gaq-page="DocumentationTutorials"
+            href="https://confluence.atlassian.com/x/Q4sFLQ" target="_blank">
+          Bitbucket tutorials
+        </a>
+      </li>
+      <li>
+        <a class="support-ga" data-support-gaq-page="SiteStatus"
+            href="https://status.bitbucket.org/" target="_blank">
+          Site status
+        </a>
+      </li>
+      <li>
+        <a class="support-ga" data-support-gaq-page="Home"
+            href="https://support.atlassian.com/bitbucket-cloud/" target="_blank">
+          Support
+        </a>
+      </li>
+    </ul>
+  </div>
+</aui-inline-dialog>
+  
+
+
+  <div class="omnibar" data-module="components/omnibar/index">
+    <form class="omnibar-form aui"></form>
+  </div>
+  
+    
+    
+  
+  
+    
+    
+  
+  
+    
+    
+  
+  
+    
+    
+  
+
+
+
+
+  
+
+  <div class="_mustache-templates">
+    
+      <script id="transition-dialog-template" type="text/html">
+        
+
+<form class="aui" id="issue-transition-form" method="post"
+            data-duplicate-url="/mst777/zerx_tv/issue-duplicate/151/">
+  <div class="aui-message error hidden">
+    <span class="aui-icon icon-error"></span>
+    <div class="message"></div>
+  </div>
+
+  <div class=" duplicate field-group">
+    <label for="id_duplicate_issue">Issue number</label>
+    <input type="text" class="text" id="id_duplicate_issue"/>
+  </div>
+  <div class="comment field-group">
+    <label for="id_transition_comment">Comment</label>
+    <div class="textarea-preview">
+       <textarea id="id_transition_comment" class="bb-mention-input"
+          data-mention-url="/xhr/mentions/repositories/mst777/zerx_tv/issues"
+          ></textarea>
+       <div class="preview-container wiki-content"><!-- loaded via ajax --></div>
+       <div class="mask"></div>
+    </div>
+  </div>
+</form>
+
+      </script>
+    
+      <script id="user-select-template" type="text/html">
+        
+
+<div class="aui-avatar aui-avatar-xsmall admin-avatar">
+  <div class="aui-avatar-inner">
+    <img src="[[avatar]]">
+  </div>
+</div>
+<span>[[display_name]]</span>
+
+      </script>
+    
+      <script id="attachment-dialog-template" type="text/html">
+        
+
+<form class="aui" id="issue-attachment-form" method="post"
+      enctype="multipart/form-data"
+      action="/mst777/zerx_tv/issue-attachment/151/">
+  <div class="aui-message error hidden">
+    <span class="aui-icon icon-error"></span>
+    <div class="message"></div>
+  </div>
+  <input type='hidden' name='csrfmiddlewaretoken' value='sQXaNviOK7xmeNV0PkhVoA0RB81i8aIG' />
+  <div class="attachment field-group">
+    <label for="id_attachments">Attachments</label>
+    <input type="file" multiple="multiple" name="attachments" id="id_attachments">
+  </div>
+  <div class="comment field-group">
+    <label for="id_attachment_comment">Comment</label>
+    <div class="textarea-preview">
+      <textarea id="id_attachment_comment" name="update_comment"/>
+      <div class="preview-container wiki-content"><!-- loaded via ajax --></div>
+      <div class="mask"></div>
+    </div>
+  </div>
+</form>
+
+      </script>
+    
+      <script id="new-comment-template" type="text/html">
+        
+<li class="new-comment">
+  <div class="user">
+    <div class="aui-avatar aui-avatar-medium">
+      <div class="aui-avatar-inner">
+        <img src="[[user_avatar_url]]" alt="" />
+      </div>
+    </div>
+  </div>
+  <form class="aui top-label editor" action="#">
+    <input type="hidden" class="parent_id"/>
+    <input type="hidden" class="comment_id"/>
+    [[#convert_markup]]
+      <div class="warning aui-message convert-markup">
+        <span class="aui-icon icon-warning"></span>
+        
+        This comment is currently being rendered in creole. Editing the comment will cause it to be rendered in <a target="_blank" href="https://confluence.atlassian.com/x/jIAuEg">markdown</a>.
+        
+      </div>
+    [[/convert_markup]]
+    <div class="field-group">
+      <textarea id="id_new_comment" class="bb-mention-input"
+          
+          placeholder="What do you want to say?">[[content]]</textarea>
+      <div class="preview-container wiki-content"><!-- loaded via ajax --></div>
+      <div class="error"></div>
+    </div>
+    <div class="buttons">
+      <button class="aui-button aui-button-primary js-comment-button" type="submit">Comment</button>
+      <a href="#" class="cancel">Cancel</a>
+      
+    </div>
+    <div class="mask"></div>
+  </form>
+</li>
+
+      </script>
+    
+      <script id="image-upload-template" type="text/html">
+        
+
+<form id="upload-image" method="POST"
+    
+      action="/xhr/mst777/zerx_tv/image-upload/"
+    >
+  <input type='hidden' name='csrfmiddlewaretoken' value='sQXaNviOK7xmeNV0PkhVoA0RB81i8aIG' />
+
+  <div class="drop-target">
+    <p class="centered">Drag image here</p>
+  </div>
+
+  
+  <div>
+    <button class="aui-button click-target">Select an image</button>
+    <input name="file" type="file" class="hidden file-target"
+           accept="image/jpeg, image/gif, image/png" />
+    <input type="submit" class="hidden">
+  </div>
+</form>
+
+
+      </script>
+    
+      <script id="mention-result" type="text/html">
+        
+<span class="mention-result">
+  <span class="aui-avatar aui-avatar-small mention-result--avatar">
+    <span class="aui-avatar-inner">
+      <img src="[[avatar_url]]">
+    </span>
+  </span>
+  [[#display_name]]
+    <span class="display-name mention-result--display-name">[[&display_name]]</span> <small class="username mention-result--username">[[&username]]</small>
+  [[/display_name]]
+  [[^display_name]]
+    <span class="username mention-result--username">[[&username]]</span>
+  [[/display_name]]
+  [[#is_teammate]][[^is_team]]
+    <span class="aui-lozenge aui-lozenge-complete aui-lozenge-subtle mention-result--lozenge">teammate</span>
+  [[/is_team]][[/is_teammate]]
+</span>
+      </script>
+    
+      <script id="mention-call-to-action" type="text/html">
+        
+[[^query]]
+<li class="bb-typeahead-item">Begin typing to search for a user</li>
+[[/query]]
+[[#query]]
+<li class="bb-typeahead-item">Continue typing to search for a user</li>
+[[/query]]
+
+      </script>
+    
+      <script id="mention-no-results" type="text/html">
+        
+[[^searching]]
+<li class="bb-typeahead-item">Found no matching users for <em>[[query]]</em>.</li>
+[[/searching]]
+[[#searching]]
+<li class="bb-typeahead-item bb-typeahead-searching">Searching for <em>[[query]]</em>.</li>
+[[/searching]]
+
+      </script>
+    
+      <script id="emoji-result" type="text/html">
+        
+<span class="emoji-result">
+  <span class="emoji-result--avatar">
+    <img class="emoji" src="[[src]]">
+  </span>
+  <span class="name emoji-result--name">[[&name]]</span>
+</span>
+
+      </script>
+    
+      <script id="repo-typeahead-result" type="text/html">
+        <span class="aui-avatar aui-avatar-project aui-avatar-xsmall">
+  <span class="aui-avatar-inner">
+    <img src="[[avatar]]">
+  </span>
+</span>
+<span class="owner">[[&owner]]</span>/<span class="slug">[[&slug]]</span>
+
+      </script>
+    
+      <script id="share-form-template" type="text/html">
+        
+
+<div class="error aui-message hidden">
+  <span class="aui-icon icon-error"></span>
+  <div class="message"></div>
+</div>
+<form class="aui">
+  <table class="widget bb-list aui">
+    <thead>
+    <tr class="assistive">
+      <th class="user">User</th>
+      <th class="role">Role</th>
+      <th class="actions">Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr class="form">
+        <td colspan="2">
+          <input type="text" class="text bb-user-typeahead user-or-email"
+                 placeholder="Username or email address"
+                 autocomplete="off"
+                 data-bb-typeahead-focus="false"
+                 [[#disabled]]disabled[[/disabled]]>
+        </td>
+        <td class="actions">
+          <button type="submit" class="aui-button aui-button-light" disabled>Add</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</form>
+
+      </script>
+    
+      <script id="share-detail-template" type="text/html">
+        
+
+[[#username]]
+<td class="user
+    [[#hasCustomGroups]]custom-groups[[/hasCustomGroups]]"
+    [[#error]]data-error="[[error]]"[[/error]]>
+  <div title="[[displayName]]">
+    <a href="/[[username]]/" class="user">
+      <span class="aui-avatar aui-avatar-xsmall">
+        <span class="aui-avatar-inner">
+          <img src="[[avatar]]">
+        </span>
+      </span>
+      <span>[[displayName]]</span>
+    </a>
+  </div>
+</td>
+[[/username]]
+[[^username]]
+<td class="email
+    [[#hasCustomGroups]]custom-groups[[/hasCustomGroups]]"
+    [[#error]]data-error="[[error]]"[[/error]]>
+  <div title="[[email]]">
+    <span class="aui-icon aui-icon-small aui-iconfont-email"></span>
+    [[email]]
+  </div>
+</td>
+[[/username]]
+<td class="role
+    [[#hasCustomGroups]]custom-groups[[/hasCustomGroups]]">
+  <div>
+    [[#group]]
+      [[#hasCustomGroups]]
+        <select class="group [[#noGroupChoices]]hidden[[/noGroupChoices]]">
+          [[#groups]]
+            <option value="[[slug]]"
+                [[#isSelected]]selected[[/isSelected]]>
+              [[name]]
+            </option>
+          [[/groups]]
+        </select>
+      [[/hasCustomGroups]]
+      [[^hasCustomGroups]]
+      <label>
+        <input type="checkbox" class="admin"
+            [[#isAdmin]]checked[[/isAdmin]]>
+        Administrator
+      </label>
+      [[/hasCustomGroups]]
+    [[/group]]
+    [[^group]]
+      <ul>
+        <li class="permission aui-lozenge aui-lozenge-complete
+            [[^read]]aui-lozenge-subtle[[/read]]"
+            data-permission="read">
+          read
+        </li>
+        <li class="permission aui-lozenge aui-lozenge-complete
+            [[^write]]aui-lozenge-subtle[[/write]]"
+            data-permission="write">
+          write
+        </li>
+        <li class="permission aui-lozenge aui-lozenge-complete
+            [[^admin]]aui-lozenge-subtle[[/admin]]"
+            data-permission="admin">
+          admin
+        </li>
+      </ul>
+    [[/group]]
+  </div>
+</td>
+<td class="actions
+    [[#hasCustomGroups]]custom-groups[[/hasCustomGroups]]">
+  <div>
+    <a href="#" class="delete">
+      <span class="aui-icon aui-icon-small aui-iconfont-remove">Delete</span>
+    </a>
+  </div>
+</td>
+
+      </script>
+    
+      <script id="share-team-template" type="text/html">
+        
+
+<div class="clearfix">
+  <span class="team-avatar-container">
+    <span class="aui-avatar aui-avatar-medium">
+      <span class="aui-avatar-inner">
+        <img src="[[avatar]]">
+      </span>
+    </span>
+  </span>
+  <span class="team-name-container">
+    [[display_name]]
+  </span>
+</div>
+<p class="helptext">
+  
+    Existing users are granted access to this team immediately.
+    New users will be sent an invitation.
+  
+</p>
+<div class="share-form"></div>
+
+      </script>
+    
+      <script id="scope-list-template" type="text/html">
+        <ul class="scope-list">
+  [[#scopes]]
+    <li class="scope-list--item">
+      <span class="scope-list--icon aui-icon aui-icon-small [[icon]]"></span>
+      <span class="scope-list--description">[[description]]</span>
+    </li>
+  [[/scopes]]
+</ul>
+
+      </script>
+    
+      <script id="omnibar-form-template" type="text/html">
+        <div class="omnibar-input-container">
+  <input class="omnibar-input" type="text" [[#placeholder]]placeholder="[[placeholder]]"[[/placeholder]]>
+</div>
+<ul class="omnibar-result-group-list"></ul>
+
+      </script>
+    
+      <script id="omnibar-blank-slate-template" type="text/html">
+        
+
+<div class="omnibar-blank-slate">No results found</div>
+
+      </script>
+    
+      <script id="omnibar-result-group-list-item-template" type="text/html">
+        <div class="omnibar-result-group-header clearfix">
+  <h2 class="omnibar-result-group-label" title="[[label]]">[[label]]</h2>
+  <span class="omnibar-result-group-context" title="[[context]]">[[context]]</span>
+</div>
+<ul class="omnibar-result-list unstyled-list"></ul>
+
+      </script>
+    
+      <script id="omnibar-result-list-item-template" type="text/html">
+        [[#url]]
+  <a href="[[&url]]" class="omnibar-result-label">[[&label]]</a>
+[[/url]]
+[[^url]]
+  <span class="omnibar-result-label">[[&label]]</span>
+[[/url]]
+[[#context]]
+  <span class="omnibar-result-context">[[context]]</span>
+[[/context]]
+
+      </script>
+    
+  </div>
+
+
+
+
+  
+    <script nonce="NCmOmaIAlDneC9rg">
+  window.__initial_state__ = {"global": {"features": {"pr-merge-sign-off": true, "comment-likes": true, "fast-pr-merges": true, "twofactor-u2f": true, "clone-mirrors": true, "repo-onboarding": true, "require-issue-key": true, "snippets": true, "adg3": true, "fabric-emoji": true, "revert-pull-request": true, "new-dashboard": true, "integrations-page": true, "online-ides": true, "new-signup-flow": true, "fe_word_diff": true, "clonebundles": true, "use-moneybucket": true, "pinned-issue-comments": true, "invitation-matching-email": true, "2017-logos": true, "diff-renames-public": true, "app-passwords": true, "ignore-whitespace-button": true, "trello-boards": true, "atlassian-editor": true, "squash-merge": true, "pr-shared-component": true, "build-status": true, "code-search-cta": true, "projects": true, "evolution": false, "pr-checkout-command": true, "new-features-management": true, "repo-avatar-revival": true, "diff-renames-internal": true, "search-syntax-highlighting": true, "code-search-cta-launch": true, "new-features": true, "promote-bello": true, "search-results-adg3-page": true, "lfs_post_beta": true, "rollout-bello": true, "two-step": true, "bundle-splitting": true}, "locale": "en", "geoip_country": "UA", "targetFeatures": {"pr-merge-sign-off": true, "comment-likes": true, "fast-pr-merges": true, "twofactor-u2f": true, "clone-mirrors": true, "repo-onboarding": true, "require-issue-key": true, "snippets": true, "adg3": true, "fabric-emoji": true, "revert-pull-request": true, "new-dashboard": true, "integrations-page": true, "online-ides": true, "new-signup-flow": true, "fe_word_diff": true, "clonebundles": true, "use-moneybucket": true, "pinned-issue-comments": true, "invitation-matching-email": true, "2017-logos": true, "diff-renames-public": true, "app-passwords": true, "ignore-whitespace-button": true, "trello-boards": true, "atlassian-editor": false, "squash-merge": true, "pr-shared-component": true, "build-status": true, "code-search-cta": true, "projects": true, "evolution": false, "pr-checkout-command": true, "new-features-management": true, "repo-avatar-revival": true, "diff-renames-internal": true, "search-syntax-highlighting": true, "code-search-cta-launch": true, "new-features": true, "promote-bello": true, "search-results-adg3-page": true, "lfs_post_beta": true, "rollout-bello": true, "two-step": true, "bundle-splitting": true}, "isFocusedTask": false, "teams": [], "bitbucketActions": [{"analytics_label": null, "icon_class": "", "badge_label": null, "weight": 100, "url": "/repo/create?owner=mst777", "tab_name": null, "can_display": true, "label": "<strong>Repository<\/strong>", "anchor": true, "analytics_payload": {}, "target": "_self", "type": "menu_item", "id": "repository-create-drawer-item", "icon": ""}, {"analytics_label": null, "icon_class": "", "badge_label": null, "weight": 110, "url": "/account/create-team/", "tab_name": null, "can_display": true, "label": "<strong>Team<\/strong>", "anchor": true, "analytics_payload": {}, "target": "_self", "type": "menu_item", "id": "team-create-drawer-item", "icon": ""}, {"analytics_label": null, "icon_class": "", "badge_label": null, "weight": 120, "url": "/account/projects/create?owner=mst777", "tab_name": null, "can_display": true, "label": "<strong>Project<\/strong>", "anchor": true, "analytics_payload": {}, "target": "_self", "type": "menu_item", "id": "project-create-drawer-item", "icon": ""}, {"analytics_label": null, "icon_class": "", "badge_label": null, "weight": 130, "url": "/snippets/new?owner=mst777", "tab_name": null, "can_display": true, "label": "<strong>Snippet<\/strong>", "anchor": true, "analytics_payload": {}, "target": "_self", "type": "menu_item", "id": "snippet-create-drawer-item", "icon": ""}], "targetUser": {"username": "mst777", "website": "", "display_name": "DiMaco mb", "account_id": "557058:8aef176a-e0af-469d-94dc-420e732e1f44", "links": {"self": {"href": "https://bitbucket.org/!api/2.0/users/mst777"}, "html": {"href": "https://bitbucket.org/mst777/"}, "avatar": {"href": "https://bitbucket.org/account/mst777/avatar/32/"}}, "extra": {"has_atlassian_account": true}, "created_on": "2015-03-02T09:39:46.761722+00:00", "is_staff": false, "location": null, "type": "user", "uuid": "{102fbc9b-6b05-444d-b783-fe5fbf7c8001}"}, "isNavigationOpen": true, "path": "/mst777/zerx_tv/issues/151/newtemplate", "focusedTaskBackButtonUrl": "https://bitbucket.org/mst777/zerx_tv/issues?page=27", "currentUser": {"username": "yybitb", "website": "", "display_name": "yybitb", "account_id": "557058:50b49aec-0028-4a41-8874-55077e86133c", "links": {"self": {"href": "https://bitbucket.org/!api/2.0/users/yybitb"}, "html": {"href": "https://bitbucket.org/yybitb/"}, "avatar": {"href": "https://bitbucket.org/account/yybitb/avatar/32/"}}, "extra": {"has_atlassian_account": true}, "created_on": "2014-06-09T11:01:23.433391+00:00", "is_staff": false, "location": null, "type": "user", "uuid": "{d2ee9cfe-6807-4b0b-b199-aec6bc17e1c6}"}}, "repository": {"section": {"connectActions": [], "cloneProtocol": "https", "currentRepository": {"scm": "git", "name": "zerx_tv", "links": {"clone": [{"href": "https://yybitb@bitbucket.org/mst777/zerx_tv.git", "name": "https"}, {"href": "ssh://git@bitbucket.org/mst777/zerx_tv.git", "name": "ssh"}], "self": {"href": "https://bitbucket.org/!api/2.0/repositories/mst777/zerx_tv"}, "html": {"href": "https://bitbucket.org/mst777/zerx_tv"}, "avatar": {"href": "https://bitbucket.org/mst777/zerx_tv/avatar/32/"}}, "full_name": "mst777/zerx_tv", "owner": {"username": "mst777", "website": "", "display_name": "DiMaco mb", "account_id": "557058:8aef176a-e0af-469d-94dc-420e732e1f44", "links": {"self": {"href": "https://bitbucket.org/!api/2.0/users/mst777"}, "html": {"href": "https://bitbucket.org/mst777/"}, "avatar": {"href": "https://bitbucket.org/account/mst777/avatar/32/"}}, "created_on": "2015-03-02T09:39:46.761722+00:00", "is_staff": false, "location": null, "type": "user", "uuid": "{102fbc9b-6b05-444d-b783-fe5fbf7c8001}"}, "type": "repository", "slug": "zerx_tv", "uuid": "{45d80fa9-cf10-45d7-a08b-3e764391c558}"}, "menuItems": [{"analytics_label": "repository.overview", "icon_class": "icon-overview", "badge_label": null, "weight": 100, "url": "/mst777/zerx_tv/overview", "tab_name": "overview", "can_display": true, "label": "Overview", "anchor": true, "analytics_payload": {}, "target": "_self", "type": "menu_item", "id": "repo-overview-link", "icon": "icon-overview"}, {"analytics_label": "repository.source", "icon_class": "icon-source", "badge_label": null, "weight": 200, "url": "/mst777/zerx_tv/src", "tab_name": "source", "can_display": true, "label": "Source", "anchor": true, "analytics_payload": {}, "target": "_self", "type": "menu_item", "id": "repo-source-link", "icon": "icon-source"}, {"analytics_label": "repository.commits", "icon_class": "icon-commits", "badge_label": null, "weight": 300, "url": "/mst777/zerx_tv/commits/", "tab_name": "commits", "can_display": true, "label": "Commits", "anchor": true, "analytics_payload": {}, "target": "_self", "type": "menu_item", "id": "repo-commits-link", "icon": "icon-commits"}, {"analytics_label": "repository.branches", "icon_class": "icon-branches", "badge_label": null, "weight": 400, "url": "/mst777/zerx_tv/branches/", "tab_name": "branches", "can_display": true, "label": "Branches", "anchor": true, "analytics_payload": {}, "target": "_self", "type": "menu_item", "id": "repo-branches-link", "icon": "icon-branches"}, {"analytics_label": "repository.pullrequests", "icon_class": "icon-pull-requests", "badge_label": "0 open pull requests", "weight": 500, "url": "/mst777/zerx_tv/pull-requests/", "tab_name": "pullrequests", "can_display": true, "label": "Pull requests", "anchor": true, "analytics_payload": {}, "target": "_self", "type": "menu_item", "id": "repo-pullrequests-link", "icon": "icon-pull-requests"}, {"analytics_label": "issues", "icon_class": "icon-issues", "badge_label": "36 active issues", "weight": 600, "url": "/mst777/zerx_tv/issues?status=new&status=open", "tab_name": "issues", "can_display": true, "label": "Issues", "anchor": true, "analytics_payload": {}, "target": "_self", "type": "menu_item", "id": "repo-issues-link", "icon": "icon-issues"}, {"analytics_label": "repository.wiki", "icon_class": "icon-wiki", "badge_label": null, "weight": 700, "url": "/mst777/zerx_tv/wiki/", "tab_name": "wiki", "can_display": true, "label": "Wiki", "anchor": true, "analytics_payload": {}, "target": "_self", "type": "menu_item", "id": "repo-wiki-link", "icon": "icon-wiki"}, {"analytics_label": "repository.downloads", "icon_class": "icon-downloads", "badge_label": null, "weight": 800, "url": "/mst777/zerx_tv/downloads/", "tab_name": "downloads", "can_display": true, "label": "Downloads", "anchor": true, "analytics_payload": {}, "target": "_self", "type": "menu_item", "id": "repo-downloads-link", "icon": "icon-downloads"}, {"analytics_label": "site.addon", "icon_class": "aui-iconfont-unfocus", "badge_label": null, "weight": 100, "url": "/mst777/zerx_tv/addon/bitbucket-trello-integration-installer/trello-board", "tab_name": "repopage-74Mgx6-add-on-link", "can_display": true, "label": "Boards", "anchor": false, "analytics_payload": {}, "icon_url": "https://bitbucket-assetroot.s3.amazonaws.com/add-on/icons/35ceae0c-17b1-443c-a6e8-d9de1d7cccdb.svg?Signature=alnqFJafT7heDF7MjM9PUc75vTg%3D&Expires=1505401504&AWSAccessKeyId=AKIAIQWXW6WLXMB5QZAQ&versionId=3oqdrZZjT.HijZ3kHTPsXE6IcSjhCG.P", "type": "connect_menu_item", "id": "repopage-74Mgx6-add-on-link", "target": "_self"}], "bitbucketActions": [{"analytics_label": "repository.clone", "icon_class": "icon-clone", "badge_label": null, "weight": 100, "url": "#clone", "tab_name": "clone", "can_display": true, "label": "<strong>Clone<\/strong> this repository", "anchor": true, "analytics_payload": {}, "target": "_self", "type": "menu_item", "id": "repo-clone-button", "icon": "icon-clone"}, {"analytics_label": "repository.create_branch", "icon_class": "icon-create-branch", "badge_label": null, "weight": 200, "url": "/mst777/zerx_tv/branch", "tab_name": "create-branch", "can_display": true, "label": "Create a <strong>branch<\/strong>", "anchor": true, "analytics_payload": {}, "target": "_self", "type": "menu_item", "id": "repo-create-branch-link", "icon": "icon-create-branch"}, {"analytics_label": "create_pullrequest", "icon_class": "icon-create-pull-request", "badge_label": null, "weight": 300, "url": "/mst777/zerx_tv/pull-requests/new", "tab_name": "create-pullreqs", "can_display": true, "label": "Create a <strong>pull request<\/strong>", "anchor": true, "analytics_payload": {}, "target": "_self", "type": "menu_item", "id": "repo-create-pull-request-link", "icon": "icon-create-pull-request"}, {"analytics_label": "repository.compare", "icon_class": "aui-icon-small aui-iconfont-devtools-compare", "badge_label": null, "weight": 400, "url": "/mst777/zerx_tv/branches/compare", "tab_name": "compare", "can_display": true, "label": "<strong>Compare<\/strong> branches or tags", "anchor": true, "analytics_payload": {}, "target": "_self", "type": "menu_item", "id": "repo-compare-link", "icon": "aui-icon-small aui-iconfont-devtools-compare"}, {"analytics_label": "repository.fork", "icon_class": "icon-fork", "badge_label": null, "weight": 500, "url": "/mst777/zerx_tv/fork", "tab_name": "fork", "can_display": true, "label": "<strong>Fork<\/strong> this repository", "anchor": true, "analytics_payload": {}, "target": "_self", "type": "menu_item", "id": "repo-fork-link", "icon": "icon-fork"}], "activeMenuItem": "issues"}}};
+  window.__settings__ = {"SOCIAL_AUTH_ATLASSIANID_LOGOUT_URL": "https://id.atlassian.com/logout", "CANON_URL": "https://bitbucket.org", "API_CANON_URL": "https://api.bitbucket.org"};
+</script>
+<script src="https://d301sr5gafysq2.cloudfront.net/4373ea877c7d/jsi18n/en/djangojs.js"></script>
+
+  <script src="https://d301sr5gafysq2.cloudfront.net/4373ea877c7d/dist/webpack/locales/en.js"></script>
+
+<script src="https://d301sr5gafysq2.cloudfront.net/4373ea877c7d/dist/webpack/common.js"></script>
+<script src="https://d301sr5gafysq2.cloudfront.net/4373ea877c7d/dist/webpack/issues.js"></script>
+  
+
+
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"a2cef8c3d3","agent":"","transactionName":"Z11RZxdWW0cEVkYLDV4XdUYLVEFdClsdAAtEWkZQDlJBGgRFQhFMWUtARgBEG0IMUEURWFlLQEYA","applicationID":"1841284","errorBeacon":"bam.nr-data.net","applicationTime":976}</script>
+</body>
+</html>
